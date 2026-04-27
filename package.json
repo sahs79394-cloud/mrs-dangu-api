@@ -1,0 +1,22 @@
+{
+  "name": "mrs-dangu-api",
+  "version": "1.0.0",
+  "description": "Mrs. Dangu — pyaari AI assistant API. OpenAI ChatGPT + Gemini, multilingual, image vision. Inventor: Mr. Suraj Sir.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.1.1",
+    "openai": "^6.34.0"
+  },
+  "license": "MIT",
+  "author": "Mr. Suraj Sir"
+}
